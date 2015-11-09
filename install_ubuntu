@@ -23,7 +23,7 @@ git clone https://github.com/onaio/onadata.git /home/ubuntu/src/ona
 . /home/ubuntu/src/.virtualenvs/ona/bin/activate && pip install uwsgi
 . /home/ubuntu/src/.virtualenvs/ona/bin/activate && pip install numpy
 . /home/ubuntu/src/.virtualenvs/ona/bin/activate && pip install pandas==0.12
-. /home/ubuntu/src/.virtualenvs/ona/bin/activate && pip install -r /home/ubuntu/src/ona/requirements/common.pip --allow-all-external
+. /home/ubuntu/src/.virtualenvs/ona/bin/activate && pip install -r /home/ubuntu/src/ona/requirements/latest.pip --allow-all-external
 
 cp -rf context/* /tmp
 
